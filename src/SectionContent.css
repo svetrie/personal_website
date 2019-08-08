@@ -1,0 +1,37 @@
+
+.SectionTitle {
+    textAlign: left;
+    color: white;
+    font-family: BioRhyme;
+    /*font-size: 24px;*/
+    font-size: 1.75vw;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+#ContactInfo * {
+    color: black;
+}
+
+#ContactInfo .SectionSummary {
+    text-align: center;
+}
+
+.Quote {
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display';
+    /*font-size: 20px;*/
+    font-size: 1.55vw;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.SectionSummary {
+    color: white;
+    /*font-size: 18px;*/
+    font-size: 1.35vw;
+    line-height: 2.5;
+    font-family: Raleway;
+    font-weight: 300px;
+}

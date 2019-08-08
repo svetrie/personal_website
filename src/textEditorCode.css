@@ -1,0 +1,33 @@
+.Code {
+    font-family: Consolas;
+    /*font-size: 18px;*/
+    font-size: 1.35vw;
+    line-height: 2vw;
+    position: absolute;
+    /*
+    top: 52px;
+    left: 35px;
+    */
+    top: 3.9vw;
+    left: 3.5vw;
+}
+
+.PurpleText {
+    color: #c665db;
+}
+
+.YellowText {
+    color: #e3c230;
+}
+
+.WhiteText {
+    color: white;
+}
+
+.RedText {
+    color: #de6f6f;
+}
+
+.GreenText {
+    color: #77ed84;
+}
