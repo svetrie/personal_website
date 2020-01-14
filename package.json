@@ -2,7 +2,7 @@
   "name": "personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://svetrie.github.io",
+  "homepage": "https://svetrie.github.io/personal_website",
   "dependencies": {
     "react": "^16.8.6",
     "react-device-detect": "^1.7.5",

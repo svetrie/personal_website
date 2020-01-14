@@ -41,7 +41,7 @@ function ProjDescription(props) {
             <br/>
             <p>{props.description}</p>
             <br/>
-            <a href={props.link} style={{wordWrap: 'break-word'}}>{props.link}</a>
+            <a href={props.link} target="_blank" style={{wordWrap: 'break-word'}}>{props.link}</a>
         </div>
     )
 }

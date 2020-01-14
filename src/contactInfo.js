@@ -49,14 +49,17 @@ function ContactInfo(props) {
             to connect and have a conversation? Don't hesitate to reach out!</p>
 
             <div style={contactContainer}>
-                <a href="https://github.com/svetrie"><img src={require('./images/Github_logo.svg')} style={contactImg}/></a>
+                <a href="https://github.com/svetrie" target="_blank">
+                <img src={require('./images/Github_logo.svg')} style={contactImg}/></a>
 
-                <a href="https://www.linkedin.com/in/vetrie-senthilkumar-50a109164/">
+                <a href="https://www.linkedin.com/in/vetrie-senthilkumar-50a109164/" target="_blank">
                 <img src={require('./images/LinkedIn_logo.png')} style={contactImg}/></a>
 
-                <a href="mailto:vetsenthilkumar@gmail.com"><img src={require('./images/email_logo.png')} style={contactImg}/></a>
+                <a href="mailto:vetsenthilkumar@gmail.com" target="_blank">
+                <img src={require('./images/email_logo.png')} style={contactImg}/></a>
 
-                <a href="https://www.facebook.com/profile.php?id=100004418595664"><img src={require('./images/facebook_logo.svg')} style={contactImg}/></a>
+                <a href="https://www.facebook.com/profile.php?id=100004418595664" target="_blank">
+                <img src={require('./images/facebook_logo.svg')} style={contactImg}/></a>
             </div>
         </div>
     )

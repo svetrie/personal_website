@@ -62,14 +62,7 @@ const summaryPosition = {
     top: '23%',
     right: '2%'
 }
-/*
-Vetrie_Senthilkumar.programming_languages = ['Python',
- 'C++', 'Java', 'Javascript', 'R', 'MIPS Assembly']
 
-Vetrie_Senthilkumar.technologies_used = ['R Shiny',
-'React.js', 'Postgresql', 'openFrameworks', 'Git',
-'Reportlab', 'Verilog']
-*/
 
 function Skills(props) {
     if (props.device === 'tabletPortrait') {
@@ -79,7 +72,7 @@ function Skills(props) {
         sectionContainer.marginTop = '7vh'
         sectionContainer.height = '70vh'
     } else if (props.device === 'mobile') {
-        sectionContainer.height = '36vh'
+        sectionContainer.height = '32vh'
         sectionContainer.marginTop = '7vh'
     }
 
@@ -138,7 +131,7 @@ function Skills(props) {
             <div style={summaryPosition}>
                 <p className='SectionSummary'> To stay relevant in a rapidly evolving field, I believe that it's
                 crucial to embrace new technologies and be versatile. I'm always eager to add new languages, frameworks,
-                and libraries to my ever expanding toolkit, but for now, I'm comfortable developing
+                and libraries to my expanding toolkit, but for now, I'm comfortable developing
                 software using OOP languages like Java and C++, wrangling data and building models using
                 Python and R, designing beautiful front end interfaces with Javascript and HTML/CSS,
                 or getting down to the nitty gritty details with a low level language like Assembly.

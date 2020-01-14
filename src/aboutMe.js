@@ -98,7 +98,7 @@ function AboutMe(props) {
 
                             <span className="RedText"><br/>&emsp;&nbsp;&nbsp;resume</span>
                             <span className="WhiteText">: </span>
-                            <a className="GreenText" href={require("./documents/Fall2019ResumeVetrieUpdated.pdf")}>"VetrieSenthilkumarResume.pdf"</a>
+                            <a className="GreenText" target="_blank" href={require("./documents/Fall2019ResumeVetrieUpdated.pdf")}>"VetrieSenthilkumarResume.pdf"</a>
                             <span className="WhiteText">,</span>
 
                             <span className="RedText"><br/>&emsp;&nbsp;&nbsp;homeTown</span>
@@ -110,7 +110,7 @@ function AboutMe(props) {
                             <span className="WhiteText">: [</span>
                             <span className="GreenText">'Tennis'</span>
                             <span className="WhiteText">, </span>
-                            <span className="GreenText">'Reading'</span>
+                            <span className="GreenText">'Trading'</span>
                             <span className="WhiteText">, </span>
                             <span className="GreenText">'Running'</span>
                             <span className="WhiteText">]</span>
@@ -122,17 +122,17 @@ function AboutMe(props) {
             </div>
 
             <div style={summaryPosition}>
-                <p className = 'SectionSummary'> Hello there! I'm Vetrie, a rising junior majoring in computer science and
-                statistics at the University of Illinois. I have a passionate for
-                full stack development as well as data engineering. I am always looking
+                <p className = 'SectionSummary'> Hello there! I'm Vetrie, a junior majoring in computer science and
+                statistics at the University of Illinois. I have a passion for
+                backend development, data engineering, and machine learning. I am always looking
                 for opportunities to develop my career and my skills in these fields.
-                Most recently, I interned at General Electric Aviation as a Data Analytics
-                and Engineering Intern.
+                Most recently, I interned at General Electric Aviation as a Data Engineering Intern.
+                This upcoming summer, I'll be interning at Jump Trading as a Software Engineering Intern.
                 <br/>
                 <br/>
-                When I'm not in front of my computer coding or binge watching
+                When I'm not in front of my computer coding or watching
                 Netflix, I like to play tennis and run to stay active. Recently, I've
-                developed an interest in investing and trading foreign exchange currencies.
+                developed an interest in investing and algorithmic trading.
                 </p>
             </div>
 
