@@ -120,10 +120,10 @@ function Projects(props) {
             </div>
 
             <div style={project3Position}>
-                <ProjectTile title='Forex Simulator' img={require("./images/candlestickChart.jpg")} device={props.device}>
-                    Allows users to manage a portfolio of foreign currencies
-                    using features like candlestick charts, fibonacci retracements, and various
-                    moving averages. In process of being developed with React.js and Django
+                <ProjectTile title='Trading Bot' img={require("./images/candlestickChart.jpg")} device={props.device}>
+                    Analyzing algorithmic trading strategies involving candlestick patterns,
+                    technical indicators, and news events. Using Python, particularly Numpy and
+                    Pandas for quantitative research.
                 </ProjectTile>
             </div>
 

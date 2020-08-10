@@ -93,12 +93,12 @@ function AboutMe(props) {
 
                             <span className="RedText"><br/>&emsp;&nbsp;&nbsp;graduationDate</span>
                             <span className="WhiteText">: </span>
-                            <span className="GreenText">'May 2021'</span>
+                            <span className="GreenText">'December 2020'</span>
                             <span className="WhiteText">,</span>
 
                             <span className="RedText"><br/>&emsp;&nbsp;&nbsp;resume</span>
                             <span className="WhiteText">: </span>
-                            <a className="GreenText" target="_blank" href={require("./documents/Fall2019ResumeVetrieUpdated.pdf")}>"VetrieSenthilkumarResume.pdf"</a>
+                            <a className="GreenText" target="_blank" href={require("./documents/VetrieResumeFA20.pdf")}>"VetrieSenthilkumarResume.pdf"</a>
                             <span className="WhiteText">,</span>
 
                             <span className="RedText"><br/>&emsp;&nbsp;&nbsp;homeTown</span>
@@ -110,7 +110,7 @@ function AboutMe(props) {
                             <span className="WhiteText">: [</span>
                             <span className="GreenText">'Tennis'</span>
                             <span className="WhiteText">, </span>
-                            <span className="GreenText">'Trading'</span>
+                            <span className="GreenText">'Investing'</span>
                             <span className="WhiteText">, </span>
                             <span className="GreenText">'Running'</span>
                             <span className="WhiteText">]</span>
@@ -122,17 +122,17 @@ function AboutMe(props) {
             </div>
 
             <div style={summaryPosition}>
-                <p className = 'SectionSummary'> Hello there! I'm Vetrie, a junior majoring in computer science and
+                <p className = 'SectionSummary'> Hello there! I'm Vetrie, a senior majoring in computer science and
                 statistics at the University of Illinois. I have a passion for
-                backend development, data engineering, and machine learning. I am always looking
-                for opportunities to develop my career and my skills in these fields.
-                Most recently, I interned at General Electric Aviation as a Data Engineering Intern.
-                This upcoming summer, I'll be interning at Jump Trading as a Software Engineering Intern.
+                backend development, data engineering, and machine learning. I'm always looking
+                for exciting opportunities to develop my skills in these fields.
+                Most recently, I interned at Jump Trading as a Software Engineering Intern.
+                Previously, I've completed internships at GE Aviation and CareVoyant.
                 <br/>
                 <br/>
                 When I'm not in front of my computer coding or watching
                 Netflix, I like to play tennis and run to stay active. Recently, I've
-                developed an interest in investing and algorithmic trading.
+                developed an interest in investing and trading.
                 </p>
             </div>
 
